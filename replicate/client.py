@@ -324,7 +324,7 @@ def _build_httpx_client(
     }
 
     if (
-        api_token := api_token or os.environ.get("REPLICATE_API_TOKEN")
+        api_token := api_token or os.getenv()
     ) and api_token != "":
         headers["Authorization"] = f"Token {api_token}"
 

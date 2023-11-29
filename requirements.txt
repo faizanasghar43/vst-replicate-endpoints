@@ -8,7 +8,7 @@ Flask==2.2.5
 gunicorn==21.2.0
 h11==0.14.0
 httpcore==0.17.3
-httpx==0.25.1
+httpx== 0.24.1
 idna==3.4
 itsdangerous==2.1.2
 Jinja2==3.1.2
